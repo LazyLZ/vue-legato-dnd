@@ -23,8 +23,8 @@
 
 <script>
 import DropContext from '../../src/DropContext.vue'
-import Container from '../../src/Container.vue'
-import Draggable from '../../src/Draggable.vue'
+import Container from '../../src/Container.ts'
+import Draggable from '../../src/Draggable.ts'
 
 export default {
     name: 'DropPlayground',

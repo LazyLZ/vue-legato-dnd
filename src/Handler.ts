@@ -1,4 +1,3 @@
-<script>
 import {HANDLER_CLASS} from 'legato-dnd'
 import { h } from 'vue'
 
@@ -10,4 +9,3 @@ export default {
         }, this.$slots.default())
     }
 }
-</script>

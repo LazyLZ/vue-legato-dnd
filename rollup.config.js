@@ -33,6 +33,7 @@ function createOutput (format, ext) {
         exports: 'named',
         globals: {
             'legato-dnd': 'Legato',
+            'vue': 'Vue'
         }
     }
 }

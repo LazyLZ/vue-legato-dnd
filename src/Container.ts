@@ -1,4 +1,3 @@
-<script lang="ts">
 import {h} from 'vue'
 import {DragDrop, MoveGroup} from 'legato-dnd'
 // import {DragDrop, MoveGroup} from '../dist/index.esm'
@@ -72,8 +71,3 @@ export default {
         }, this.$slots.default())
     },
 }
-</script>
-
-<style scoped>
-
-</style>
