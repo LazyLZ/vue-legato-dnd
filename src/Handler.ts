@@ -4,8 +4,9 @@ import { h } from 'vue'
 export default {
     name: 'Handler',
     render () {
-        return h('div', {
+        const defaultSlot = this.$slots.default
+        return h('span', {
             class: [HANDLER_CLASS]
-        }, this.$slots.default())
+        }, defaultSlot ? defaultSlot() : undefined)
     }
 }

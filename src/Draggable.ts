@@ -3,9 +3,17 @@ import { h } from 'vue'
 
 export default {
     name: 'Draggable',
+    props: {
+        handler: {type: Boolean, default: true},
+    },
     render () {
+        const cls = [DRAGGABLE_CLASS]
+        if (this.handler) {
+            cls.push(HANDLER_CLASS)
+        }
+        const defaultSlot = this.$slots.default
         return h('div', {
-            class: [DRAGGABLE_CLASS, HANDLER_CLASS]
-        }, this.$slots.default())
+            class: cls,
+        }, defaultSlot ? defaultSlot() : undefined)
     }
 }

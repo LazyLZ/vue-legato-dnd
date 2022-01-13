@@ -66,8 +66,9 @@ export default {
         })
     },
     render() {
+        const defaultSlot = this.$slots.default
         return h('div', {
             ref: 'container',
-        }, this.$slots.default())
+        }, defaultSlot ? defaultSlot() : undefined)
     },
 }
