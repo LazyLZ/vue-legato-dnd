@@ -1,6 +1,8 @@
 # Vue Legato DnD
 
-Vue component for [Legato Dnd](https://github.com/LazyLZ/legato-dnd).
+Vue 3 component for [Legato Dnd](https://github.com/LazyLZ/legato-dnd).
+
+This library is for Vue 2.x, Vue 2.x version is here: [vue2-legato-dnd](https://github.com/LazyLZ/vue2-legato-dnd)
 
 See legato-dnd docs for option and event descriptions.
 

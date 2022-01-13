@@ -1,6 +1,6 @@
 {
   "name": "vue-legato-dnd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Lai Zhi",
   "homepage": "https://github.com/LazyLZ/vue-legato-dnd",
@@ -12,6 +12,7 @@
     "drag and drop",
     "drag drop",
     "vue",
+    "vue3",
     "drag list",
     "draggable",
     "drag&drop",
@@ -33,7 +34,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "legato-dnd": "^0.3.7",
+    "legato-dnd": "^0.3.8",
     "vue": "^3.2.25"
   },
   "devDependencies": {
