@@ -1049,10 +1049,10 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
-legato-dnd@^0.3.8:
-  version "0.3.8"
-  resolved "https://registry.npmjs.org/legato-dnd/-/legato-dnd-0.3.8.tgz#9689ab9d6f514481caf9447058a7848e37ff4ac0"
-  integrity sha512-jig3NH6OyFwmR0kab4UkvoGKZspzjo5PRtC8zd7zT8uDRZmQAum4MuBsvMu7lCMhK+o5JuzcZoIfZqkdMTY7tQ==
+legato-dnd@^0.3.9:
+  version "0.3.9"
+  resolved "https://registry.npmjs.org/legato-dnd/-/legato-dnd-0.3.9.tgz#5b95954cb6a230e3aba29ddee99995c654b95827"
+  integrity sha512-TUU3jVDKRLs/3bd33mStyfBWcftCbrEvZnMVVzzUmzJQBBgslWKJRYFYwUXkHixja2jzEXurq7OuxqwTfv0V2g==
   dependencies:
     eventemitter3 "^4.0.7"
 
