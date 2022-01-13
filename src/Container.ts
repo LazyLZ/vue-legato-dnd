@@ -49,7 +49,7 @@ export default {
         dragdrop: null,
     }),
     mounted() {
-        console.log('Draggable mounted', this.$props)
+        // console.log('Draggable mounted', this.$props)
         this.dragdrop = new DragDrop({
             container: this.$refs.container,
             ...this.$props,
