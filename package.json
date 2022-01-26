@@ -1,6 +1,6 @@
 {
   "name": "vue-legato-dnd",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "author": "Lai Zhi",
   "homepage": "https://github.com/LazyLZ/vue-legato-dnd",
@@ -34,7 +34,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "legato-dnd": "^0.3.9",
+    "legato-dnd": "^0.3.10",
     "vue": "^3.2.25"
   },
   "devDependencies": {
